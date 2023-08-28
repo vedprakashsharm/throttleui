@@ -1,0 +1,21 @@
+.startup-text-box {
+  box-shadow: 0 8px 20px 0 rgba(20, 20, 43, 0.06);
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: 1px solid #ebe9e9;
+  background-color: #ededed;
+  margin-left: 0.5rem;
+}
+
+.set-read-more {
+  display: flex;
+  // justify-content: end;
+  align-items: end;
+  padding-top: 0.5rem;
+  font-weight: 500;
+}
+.set-arrow {
+  color: #5e6474;
+}

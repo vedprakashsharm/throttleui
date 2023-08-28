@@ -1,0 +1,29 @@
+.doc-upload-img {
+  border: 1px dashed #238dd8;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  overflow: hidden;
+  //width: 340px;
+  /* margin: 20px auto; */
+  min-height: 180px;
+  align-items: center;
+}
+.doc-icon {
+  margin-right: 8px;
+}
+@media (max-width: 420px) {
+  .doc-upload-img {
+    border: 1px dashed #238dd8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    width: 265px;
+    /* margin: 20px auto; */
+    min-height: 60px;
+    align-items: center;
+  }
+}

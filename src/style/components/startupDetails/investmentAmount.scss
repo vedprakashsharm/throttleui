@@ -1,0 +1,38 @@
+.d-mount {
+  width: 100%;
+}
+
+.fundrainingDetails_wdth {
+  width: 50%;
+}
+
+.fundrainingDetails {
+  margin: 5px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: 600;
+    font-size: 14px;
+    // color: #14142b;
+  }
+
+  span {
+    // font-size: 18px;
+    font-size: 14px;
+    color: #888686;
+    line-height: 1.333em;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .fundrainingDetails {
+    width: 100%;
+  }
+}
+
+.green-text {
+  color: #35a986;
+}

@@ -1,0 +1,29 @@
+@import-normalize;
+
+// @import 'abstracts/functions';
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+ //Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+//@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+// @import 'base/animations';
+@import "base/base";
+@import "base/typography";
+// @import 'base/utilities';
+
+// @import 'layout/footer';
+// @import 'layout/header';
+// @import 'layout/navigation';
+
+@import "pages/home";
+@import "pages/investorsNetwork/InvestorNetwork";
+
+@import "components/button.scss";
+@import "components/common/progressBar.scss";
+@import "components/common/textInput.scss";
+
+@import "components/common/containerBox.scss";
+@import "components/common/label.scss";

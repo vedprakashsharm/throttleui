@@ -1,13 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import axios from "axios";
+import { Provider } from "react-redux";
+import { Analytics } from "@vercel/analytics/react";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { store } from "./store";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+import "./style/index.scss";
+import "react-toastify/dist/ReactToastify.css";
+
+axios.defaults.baseURL = "https://localhost:7148/api/";
+
+const container = document.getElementById("root");
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+      <Analytics />
+    </Provider>
   </React.StrictMode>
 );
 

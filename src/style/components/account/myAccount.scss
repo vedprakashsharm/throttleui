@@ -1,0 +1,34 @@
+.bio-updte {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.pitch_cencel-btn {
+  height: 44px !important;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px !important;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  line-height: 1.111em;
+  font-weight: 700;
+  text-align: center;
+  transform-style: preserve-3d;
+  border: 0px solid;
+  color: #238dd8;
+  margin-right: 10px !important;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+.pitch_cencel-btn:hover {
+  box-shadow: 0 15px 32px 0 rgba(238, 68, 55, 0.3803921569);
+  transform: translate3d(0px, -6px, 0.01px);
+}
+.doc_title-label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #282c3f;
+  font-weight: 500;
+}

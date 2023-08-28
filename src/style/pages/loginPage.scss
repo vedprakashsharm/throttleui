@@ -1,0 +1,21 @@
+.set-spinner-space {
+  display: flex;
+  position: absolute;
+  right: 20px;
+}
+
+.set-forgot-password {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1201px) and (max-width: 1799px) {
+  .set-spinner-space {
+    margin-top: -2px;
+  }
+}
+@media (min-width: 1800px) and (max-width: 3000px) {
+  .set-spinner-space {
+    margin-top: -3px;
+  }
+}

@@ -1,0 +1,37 @@
+.set-box-ragistration-page {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.set-sector-text {
+  margin-left: 65px;
+  margin-top: 3px;
+}
+.searchWrapper {
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 3px 0px 6px 3px;
+  position: relative;
+  box-shadow: 0 2px 6px 0 rgba(19, 18, 66, 0.07);
+  transition: box-shadow 300ms ease, color 300ms ease, border-color 300ms ease;
+}
+
+.multiSelectContainer input {
+  background: transparent;
+  border: none;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.chip {
+  justify-content: center;
+  align-items: center;
+  background: #238dd8;
+  border-radius: 11px;
+  color: #fff;
+  display: inline-flex;
+  padding: 0px 10px;
+  height: 30px;
+  margin: 5px;
+}

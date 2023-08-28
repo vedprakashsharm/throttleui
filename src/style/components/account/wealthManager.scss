@@ -1,0 +1,99 @@
+.wealth-manager-container {
+  display: flex;
+}
+.wealth-manager-container_img {
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+.wealth-manager-container_image {
+  width: 100px;
+  max-height: 100px;
+  max-width: 100%;
+  margin-right: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  object-fit: contain;
+  box-shadow: 0 8px 22px 0 rgba(255, 57, 81, 0.278);
+  border: 1px solid #238dd8;
+  height: 100px;
+  position: relative;
+}
+.wealth-manager_heading {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #282c3f;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.wealth-manager-media {
+  display: flex;
+  margin-left: 140px;
+}
+.wealth-manager_p {
+  display: flex;
+  margin: 5px 0px;
+  span {
+    font-weight: 600;
+    margin-right: 10px;
+  }
+}
+.icon-w {
+  color: #fff;
+  padding-right: 5px;
+}
+.wealth-manager-note {
+  margin-left: 140px;
+}
+@media (max-width: 667px) {
+  .wealth-manager-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wealth-manager-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .wealth-manager-note {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .wealth-manager_heading {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #14142b;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .wealth-manager-container_details {
+    text-align: center;
+  }
+  .wealth-manager_p {
+    display: flex;
+    justify-content: center;
+  }
+  .wealth-manager-container_image {
+    margin: 0px;
+  }
+  .wealth-manager_whats-up {
+    margin: 0px;
+  }
+}
+.note-st {
+  margin-right: 10px;
+  font-weight: 600;
+}
+.note-main {
+  display: flex;
+  margin-top: 2rem;
+}
+.wealth-det_p {
+  margin-left: 10px;
+}

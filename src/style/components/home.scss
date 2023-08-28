@@ -1,0 +1,77 @@
+@import '../abstracts/variables';
+
+.opportunity-section {
+  background-color: $color-primary-11;
+  position: relative;
+}
+
+.content-header {
+  padding-bottom: 1rem;
+}
+
+.search-main_section {
+  display: flex;
+  margin-bottom: 2rem;
+  column-gap: 4%;
+  row-gap: 15px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.startup_name-search {
+  width: 100%;
+  min-width: 265px;
+  position: relative;
+  border-radius: 12px !important;
+  display: flex;
+  align-items: center;
+}
+.startup_sector-search {
+  width: 48%;
+  min-width: 265px;
+  position: relative;
+  box-shadow: 6px 6px 18px #ddd;
+  border-radius: 12px !important;
+
+  .pb-2 {
+    padding-bottom: 0 !important;
+  }
+
+  .hr-line {
+    display: none;
+  }
+}
+.startup_name-input {
+  width: 100%;
+  border-color: transparent;
+  min-height: 55px;
+  padding-left: 40px;
+  border-radius: 8px;
+  background-color: #fff !important;
+}
+.startup_sector-input {
+  width: 100%;
+  border-color: transparent;
+  min-height: 48px;
+  padding-left: 40px;
+  border-radius: 8px;
+  background-color: #fff !important;
+  display: flex;
+  align-items: center;
+}
+.startup_name-input:focus-visible {
+  /* Add your styles here */
+  outline: none; /* For example, adding a blue outline */
+}
+.search_icon {
+  position: absolute;
+  z-index: 999;
+  top: 42px;
+  left: 16px;
+}
+.filter_btn {
+  padding: 14px 30px !important;
+  border-color: #ddd;
+  margin: 20px 0px 20px 10px;
+  min-height: 55px;
+}

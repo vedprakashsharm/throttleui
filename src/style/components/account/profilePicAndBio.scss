@@ -1,0 +1,183 @@
+.team-top-content {
+  display: flex;
+  max-width: 923px;
+  margin-right: auto;
+  // margin-bottom: 55px;
+  margin-left: auto;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-team-about-title-wrapper {
+  display: flex;
+  max-width: 730px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.team-main-content {
+  max-width: 400px;
+}
+
+.team-rol {
+  margin-bottom: 18px;
+  color: #238dd8;
+  font-size: 20px;
+  line-height: 1.1em;
+}
+
+.team-social-media-grid {
+  justify-content: start;
+  grid-column-gap: 24px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+}
+
+.social-media-link {
+  display: flex;
+  overflow: hidden;
+  width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  border-radius: 1000px;
+  transition-property: transform;
+  transform-style: preserve-3d;
+}
+
+.social-media-link:hover {
+  transform: translate3d(0px, -6px, 0.01px);
+}
+
+// .social-media-link.facebook {
+//   background-image: url("");
+//   background-position: 50% 50%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   box-shadow: 0 6px 8px 0 rgba(21, 116, 239, 0.21);
+// }
+
+// .social-media-link.twitter {
+//   background-image: url("");
+//   background-position: 50% 50%;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   box-shadow: 0 6px 8px 0 rgba(27, 186, 255, 0.27);
+// }
+
+.social-media-link.linkedin {
+  background-image: url('./../../../images/linked_in_icon.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 6px 8px 0 rgba(21, 126, 231, 0.34);
+}
+
+.team-image-content {
+  position: relative;
+}
+
+.image.team {
+  width: 300px;
+  max-height: 300px;
+  max-width: 100%;
+  margin-right: 40px;
+  border-radius: 100%;
+  display: inline-block;
+  object-fit: cover;
+  box-shadow: 0 8px 22px 0 rgba(255, 57, 81, 0.278);
+  border: 2px solid #238dd8;
+  height: 300px;
+  position: relative;
+}
+.camera-upload-icon {
+  color: #238dd8;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+}
+
+@media screen and (max-width: 420px) {
+  .box-Container {
+    padding: 0;
+  }
+  .camera-upload-icon {
+    right: 18%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .camera-upload-icon {
+    right: 22%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .camera-upload-icon {
+    right: 23%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .camera-upload-icon {
+    right: 13%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .camera-upload-icon {
+    right: 25%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .camera-upload-icon {
+    right: 19%;
+  }
+}
+.image.team1 {
+  display: inline-block;
+  object-fit: cover;
+  box-shadow: 0 8px 22px 0 rgba(255, 57, 81, 0.278);
+  border: 1px solid #238dd8;
+}
+.modal11 {
+  margin-left: 95%;
+  margin-top: -2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .image.team {
+    width: 220px;
+    max-height: 300px;
+    max-width: 100%;
+    margin-right: 40px;
+    border-radius: 100%;
+    display: inline-block;
+    object-fit: cover;
+    box-shadow: 0 8px 22px 0 rgba(255, 57, 81, 0.278);
+    border: 2px solid #238dd8;
+    height: 220px;
+  }
+}
+
+//===========image============//
+.image-logo-set {
+  height: 100px;
+  top: 44 !important;
+  margin-top: -53px;
+  margin-left: 178px;
+  border-radius: 100%;
+  border: 2px solid #238dd8;
+}
+.image-set2 {
+  position: absolute;
+}
+.image-set {
+  position: relative;
+}
+
+.set-edit-bio {
+  float: right;
+}
+.my-account-set {
+  opacity: 1;
+  background-color: #fff;
+}

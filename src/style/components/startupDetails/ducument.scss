@@ -1,0 +1,65 @@
+@import '../../abstracts/variables';
+
+.doc-det {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+.doc-des-det {
+  padding-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.dic-dis-flex {
+  display: flex;
+  align-items: center;
+}
+.docum-h {
+  background-color: #fff;
+  box-shadow: 0px 3px 12px #e8e8e8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+}
+.docum-h img {
+  width: 50px;
+}
+.docum-h p {
+  padding-left: 10px;
+  font-size: 16px;
+  // font-weight: 600;
+}
+.doc-main-det {
+  overflow: hidden;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.doc-icon-det {
+  color: #888686;
+  padding-left: 15px;
+  padding-top: 3px;
+}
+.doc-icon-det:hover {
+  cursor: pointer;
+}
+.doc-heed-det {
+  padding-bottom: 10px;
+}
+.doc-head-det-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.doc-dlt-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

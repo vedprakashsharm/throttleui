@@ -1,0 +1,99 @@
+.set-pending-information-text {
+  border-radius: 20px;
+  background-color: #ddd0d0;
+  padding: 5px 10px;
+  font-weight: 500;
+  height: 100%;
+}
+
+.set-content-pending-information {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.set-button-approve {
+  margin-bottom: 5px;
+  margin-left: 50.9rem;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+  font-weight: 500;
+}
+
+.box-set-content-status {
+  border-radius: 15px;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.box-content-status {
+  border-radius: 15px;
+  padding: 10px 0px;
+}
+.application-font-set {
+  font-weight: 700;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .set-button-approve {
+    margin-bottom: 5px;
+    margin-left: 0rem;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+  }
+  .start-progressbar {
+    width: 235px !important;
+    // --bs-progress-bar-bg: #00b8b7;
+  }
+}
+.start-progressbar {
+  width: 300px;
+  --bs-progress-bar-bg: #238dd8;
+  background-color: #ffeae9;
+}
+
+.progress-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+.progress-label {
+  font-weight: 500;
+}
+// .progress-label-succes {
+//   font-size: 16px;
+//   font-weight: 500;
+// }
+// .progress-label-pending {
+//   font-size: 16px;
+//   font-weight: 500;
+//   //color: #238dd8;
+// }
+
+.startup-status-main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button-set-content-status {
+  border-radius: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .box-set-content-status {
+    margin-bottom: 0px;
+    border-radius: 15px;
+    padding: 10px 0px;
+    width: 100%;
+  }
+  .startup-status-main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
